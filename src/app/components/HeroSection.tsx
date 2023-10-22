@@ -40,14 +40,7 @@ const HeroSection: React.FC = () => {
             Hi, I am a passionate software developer and IT enthusiast. I have 2
             years experience in IT field, starting from majoring in computer
             network engineering vocation high school and majoring in Information
-            Systems at Pamulang University. I am a positive person who loved to
-            challenge my self and always willing to learn more. I am also
-            reliable and have a strong sense of discipline. As a software
-            developer, I possess strong analytical skills to identify problems
-            and find appropriate solutions. I am capable of working
-            collaboratively in a team, communicating effectively, and being
-            flexible in adapting to technological advancements and project
-            requirements.
+            Systems at Pamulang University.
           </p>
           <div>
             <Link
