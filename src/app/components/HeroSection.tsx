@@ -64,12 +64,12 @@ const HeroSection: React.FC = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full overflow-hidden bg-[#181818] -mt-8 w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <div className="rounded-full overflow-hidden bg-[#181818]  w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="/images/foto.png"
               alt="hero image"
-              className="absolute object-cover transform -translate-x-1/2 -mt-16 -translate-y-1/2 top-1/2 left-1/2"
-              style={{opacity:1}}
+              className="absolute object-cover transform -translate-x-1/2 -mt-8 -translate-y-1/2 top-1/2 left-1/2"
+              style={{ opacity: 1 }}
               width={280}
               height={300}
             />
