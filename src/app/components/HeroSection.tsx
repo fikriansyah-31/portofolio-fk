@@ -37,8 +37,17 @@ const HeroSection: React.FC = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptatum.
+            Hi, I am a passionate software developer and IT enthusiast. I have 2
+            years experience in IT field, starting from majoring in computer
+            network engineering vocation high school and majoring in Information
+            Systems at Pamulang University. I am a positive person who loved to
+            challenge my self and always willing to learn more. I am also
+            reliable and have a strong sense of discipline. As a software
+            developer, I possess strong analytical skills to identify problems
+            and find appropriate solutions. I am capable of working
+            collaboratively in a team, communicating effectively, and being
+            flexible in adapting to technological advancements and project
+            requirements.
           </p>
           <div>
             <Link
