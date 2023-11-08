@@ -9,20 +9,24 @@ const projectsData = [
     title: "React Portfolio Website",
     description: "Project 1 description",
     image: "/images/projects/1.png",
-    tag: ["All", "Web"],
+    url: "https://daun.vercel.app/",
+    tag: ["All", "Web","mobile"],
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "Dumbsaund",
+    description: "tentang music",
     image: "/images/projects/2.png",
+    url: "https://fe-dumsound.vercel.app/",
     tag: ["All", "Web"],
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "Booking Application",
+    description: "Booking App",
     image: "/images/projects/3.png",
+    url: "https://boking-app.vercel.app/",
+
     tag: ["All", "Web"],
   },
   {
@@ -30,6 +34,8 @@ const projectsData = [
     title: "Food Ordering Application",
     description: "Project 4 description",
     image: "/images/projects/4.png",
+    url: "https://daun.vercel.app/",
+
     tag: ["All", "Mobile"],
   },
   {
@@ -37,6 +43,8 @@ const projectsData = [
     title: "React Firebase Template",
     description: "Authentication and CRUD operations",
     image: "/images/projects/5.png",
+    url: "https://daun.vercel.app/",
+
     tag: ["All", "Web"],
   },
   {
@@ -44,6 +52,8 @@ const projectsData = [
     title: "Full-stack Roadmap",
     description: "Project 5 description",
     image: "/images/projects/6.png",
+    url: "https://daun.vercel.app/",
+
     tag: ["All", "Web"],
   },
 ];
@@ -81,10 +91,11 @@ const ProjectsSection = () => {
         />
       </div>
       <div className="grid md:grid-cols-3 gap-8 md:gap-12">
-        {filteredProjects.map((project, index) => (
+        {filteredProjects.map((project, _index) => (
           <ProjectCard
             key={project.id}
             title={project.title}
+            url={project.url}
             description={project.description}
             imgUrl={project.image}
           />
